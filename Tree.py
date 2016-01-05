@@ -55,7 +55,7 @@ class Tree:
     def _printTree(self, node):
         if node is not None:
             self._printTree(node.l)
-            print str(node.v) + ' '
+            print str(node.v) + " "
             self._printTree(node.r)
 
 
