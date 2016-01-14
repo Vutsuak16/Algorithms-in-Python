@@ -1,6 +1,6 @@
 
 from itertools import permutations
 
-a="ashmita"
+a="kaja"
 for  i in permutations(a):
     print i
