@@ -24,3 +24,5 @@ for i in input_arr:
 for i in output:
     if i is not None:
         print i,
+
+# O(n+k) where n is the number of elements in input array and k is the range of input
