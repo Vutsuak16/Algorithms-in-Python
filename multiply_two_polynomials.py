@@ -4,13 +4,19 @@ __name__ = "vutsuak"
 def poly_multiply(p1, p2, len_p1, len_p2):
     product = (len_p1 + len_p2 - 1) * [0]
     for i in range(len_p1):
+        if p1[i] == 0:
+            continue
         for j in range(len_p2):
+            if p2[j] == 0:
+                continue
             product[i + j] += p1[i] * p2[j]
     return product
 
 
 def print_poly(poly):
     for i in range(1, len(poly) + 1):
+        if poly[i - 1] == 0:
+            continue
         print str(poly[i - 1]) + "x^" + str(i),
     print
 
