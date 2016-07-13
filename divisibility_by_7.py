@@ -11,5 +11,5 @@ x = int(n[:-1])
 if (x - (2 * last_digit)) % 7 == 0:
     print n + " is divisible by 7"
 else:
-    print n + " is not divisible by 7 "
+    print n + " is not divisible by 7 "x
 
